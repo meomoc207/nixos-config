@@ -14,8 +14,5 @@
 
     # file management
     nemo gvfs udiskie
-
-    # music
-    mpdris2
   ];
 }
