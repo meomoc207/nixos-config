@@ -6,7 +6,7 @@
   services.irqbalance.enable = true;
   services.mpd = {
   enable = true;
-  music_directory = "/home/lvsumi/Music";
+  musicDirectory = "/home/lvsumi/Music";
   settings = {
     audio_output = [
        {
