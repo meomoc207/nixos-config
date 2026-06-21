@@ -5,7 +5,7 @@
     curl wget git vim neovim fastfetch btop home-manager
 
     # development
-    nodejs pnpm mkcert nssTools
+    nodejs pnpm mkcert nssTools zellij python3
 
     # wayland desktop
     kitty rofi waybar swaybg swaynotificationcenter
@@ -14,5 +14,8 @@
 
     # file management
     nemo gvfs udiskie
+
+    # gaming
+    osu-lazer-bin
   ];
 }

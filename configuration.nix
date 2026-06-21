@@ -17,6 +17,7 @@
 
   # nix settings
   nix.settings = {
+    trusted-users = [ "root" "lvsumi" ];
     experimental-features = [ "nix-command" "flakes" ];
     cores = 0;
     max-jobs = "auto";

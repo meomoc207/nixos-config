@@ -5,7 +5,7 @@
   home.homeDirectory = "/home/lvsumi";
   home.stateVersion = "25.11";
   nixpkgs.config.allowUnfree = true;
-  home.packages = with pkgs; [ vscode networkmanagerapplet spice-vdagent adwaita-icon-theme vesktop ];
+  home.packages = with pkgs; [ vscode networkmanagerapplet spice-vdagent adwaita-icon-theme vesktop devenv ];
 
   gtk = {
   enable = true;
